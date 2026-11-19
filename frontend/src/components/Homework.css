@@ -1,0 +1,47 @@
+/* Main homework section */
+.home-work{
+  background-color: white;
+  padding: 25px;
+  margin-top: 35px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.home-work h2 {
+  color: #26345c;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.home-work table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.home-work th,
+.home-work td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.home-workth {
+  color: #666;
+}
+
+/* Pending homework status */
+.pending {
+  color: #d97706;
+  background-color: #fef3c7;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* Completed homework status */
+.completed {
+  color: #15803d;
+  background-color: #dcfce7;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
